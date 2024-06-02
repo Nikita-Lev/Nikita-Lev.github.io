@@ -25,7 +25,7 @@
 <div class="left-column">
       <h2>Контактная информация</h2>
       <ul1>
-        <li>Номер телефона: +7 953 855 13 22</li>
+        <li>Telegram: <a href="https://t.me/Nikita_Lev">@Nikita_Lev</a></li>
         <li>Email: <a href="mailto:Nlkita.Lev@yandex.ru">Nlkita.Lev@yandex.ru</a></li>
         <li>Linkedin: <a href="https://www.linkedin.com/in/nikita-lev/">linkedin.com/in/nikita-lev/</a></li>
         <li>г. Красноярск</li>
@@ -113,6 +113,33 @@
       </div>
     </section>
 
+    <section id="skills">
+      <h2>Навыки</h2>
+      <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Machine Learning</div>
+        <div class="skill">Data Science</div>
+        <div class="skill">C++</div>
+</div> 
+<div class="skills">
+        <div class="skill">Временные ряды</div>
+        <div class="skill">Pandas</div>
+        <div class="skill">NumPy</div>
+        <div class="skill">Matplotlib</div>
+        <div class="skill">Plotly</div>
+        <div class="skill">Seaborn</div>
+        <div class="skill">Scipy</div>
+        <div class="skill">Sklearn</div>
+        <div class="skill">Keras</div>
+        <div class="skill">Statsmodels</div>
+        <div class="skill">XGboost</div>
+        <div class="skill">Panel</div>
+        <div class="skill">Folium</div>
+        <div class="skill">PyQt5</div>    	
+</div> 
+    </section>
+
     <section id="science">
       <h2>Научная деятельность</h2>
       <h3>2024</h3>
@@ -122,7 +149,7 @@
       </ul>
       <h3>2023</h3>
       <ul>
-        <li>Публикация статьи «Методы прогнозирования временных рядов в задаче анализа уровня концентрации загрязняющих веществ в атмосфере г. Красноярска». Безопасность и мониторинг природных и техногенных систем, DOI:</li>
+        <li>Публикация <a href="https://doi.org/10.25743/SSTS.2023.68.60.050">статьи</a> «Методы прогнозирования временных рядов в задаче анализа уровня концентрации загрязняющих веществ в атмосфере г. Красноярска». Безопасность и мониторинг природных и техногенных систем</li>
         <li>Участие в XX Международной научной конференции студентов, аспирантов и молодых ученых «Проспект Свободный – 2023», англоязычная секция (лауреат)
         </li>
       </ul>
@@ -130,24 +157,64 @@
 
     <section id="courses">
       <h2>Курсы и сертификаты</h2>
-      <h3>2023 — Стипендиат Тинькофф: <a href="https://disk.yandex.ru/i/AohYa3RHk9Y37g">сертификат</a></h3>
+      <h3>2023 — Стипендиат Тинькофф</h3>
 	<p>Изучил базовые и магистерские курсы по Machine Learning и Deep Learning от
 Тинькофф Образования</p>
-      <h3>2021 — 2022</h3>
-      <ul>
-	<p>Coursera, Moscow Institute of Physics and Technology, Yandex, курсы:</p>
-        <li>«Математика и Python для анализа данных», <a href="https://www.coursera.org/account/accomplishments/certificate/6FMYJVWFVDEH">сертификат</a></li>
-        <li>«Обучение на размеченных данных», <a href="https://www.coursera.org/account/accomplishments/certificate/3YAMVR5AVGLR">сертификат</a></li>
-        <li>«Поиск структуры в данных», <a href="https://www.coursera.org/account/accomplishments/certificate/HLU7QYJK2VS5">сертификат</a></li>
-        <li>«Построение выводов по данным», <a href="https://www.coursera.org/account/accomplishments/certificate/4BTD9RHF43MQ">сертификат</a></li>
-        <li>«Прикладные задачи анализа данных», <a href="https://www.coursera.org/account/accomplishments/certificate/A5H3NR3MWPTJ">сертификат</a></li>
-      </ul>
+	<img src="certificates/cert0.jpg" alt="Certificate 0" class = "Tinkoff-cert" onclick="openModal('certificates/cert0.jpg')">
+      
+	<h3>2021 — 2022</h3>
+
+	<div class="carousel-container">
+            <button class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <div class="carousel">
+                <div class="carousel-track">
+                    <div class="carousel-item" onclick="openModal('certificates/cert1.jpg')">
+                        <img src="certificates/cert1.jpg" alt="Certificate 1">
+                        <p><a href="https://www.coursera.org/account/accomplishments/certificate/6FMYJVWFVDEH">Математика и Python для анализа данных</a></p>
+                    </div>
+                    <div class="carousel-item" onclick="openModal('certificates/cert2.jpg')">
+                        <img src="certificates/cert2.jpg" alt="Certificate 2">
+                        <p>Yandex Certificate</p>
+                    </div>
+                    <div class="carousel-item" onclick="openModal('certificates/cert3.jpg')">
+                        <img src="certificates/cert3.jpg" alt="Certificate 3">
+                        <p><a href="https://www.coursera.org/account/accomplishments/certificate/3YAMVR5AVGLR">Обучение на размеченных данных</a></p>
+                    </div>
+                    <div class="carousel-item" onclick="openModal('certificates/cert4.jpg')">
+                        <img src="certificates/cert4.jpg" alt="Certificate 4">
+                        <p>Ингосстрах</p>
+                    </div>
+                    <div class="carousel-item" onclick="openModal('certificates/cert5.jpg')">
+                        <img src="certificates/cert5.jpg" alt="Certificate 5">
+                        <p><a href="https://www.coursera.org/account/accomplishments/certificate/HLU7QYJK2VS5">Поиск структуры в данных</a></p>
+                    </div>
+                    <div class="carousel-item" onclick="openModal('certificates/cert6.jpg')">
+                        <img src="certificates/cert6.jpg" alt="Certificate 6">
+                        <p><a href="https://www.coursera.org/account/accomplishments/certificate/4BTD9RHF43MQ">Построение выводов по данным</a></p>
+                    </div>
+                    <div class="carousel-item" onclick="openModal('certificates/cert7.jpg')">
+                        <img src="certificates/cert7.jpg" alt="Certificate 7">
+                        <p><a href="https://www.coursera.org/account/accomplishments/certificate/A5H3NR3MWPTJ">Прикладные задачи анализа данных</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
     </section>
   </div>
+
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
 
   <footer>
     <p>&copy; 2024 Никита Лев. Все права защищены.</p>
   </footer>
+
+	<script src="script.js"></script>
 </body>
 
 </html>
