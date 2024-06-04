@@ -123,7 +123,7 @@ ul1 li {
 }
 
 
-.Tinkoff-cert {
+.Tinkoff-cert img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -132,7 +132,14 @@ ul1 li {
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
+
+.Tinkoff-cert img:hover {
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+}
+
 
 footer {
     text-align: center;
@@ -227,8 +234,8 @@ footer {
 }
 
 .carousel-item {
-    min-width: calc(33.33% - 10px); /* Subtract the total horizontal margin */
-    max-width: calc(33.33% - 10px); /* Subtract the total horizontal margin */
+    min-width: calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
     box-sizing: border-box;
     text-align: center;
     margin: 0 5px;
@@ -236,12 +243,22 @@ footer {
 }
 
 
+
 .carousel img {
     width: 100%;
     height: auto;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
+.carousel img:hover {
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+}
+
+.carousel img.large-image {
+    width: 35%; /* уменьшите до желаемого размера */
+  }
 
 .carousel-item p {
     margin: 10px 0 0 0;

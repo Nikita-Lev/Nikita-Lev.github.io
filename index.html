@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
+
 <body>
   <div class="container">
     <header>
@@ -155,12 +156,48 @@
       </ul>
     </section>
 
+<section id="projects">
+      <h2>Проекты</h2>
+	<div class="carousel-container">
+            <button class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <div class="carousel">
+                <div class="carousel-track">
+                    <div class="carousel-item" onclick="openModal('projects/Pet1.jpg')">
+                        <img src="projects/Pet1.jpg" alt="Project 1">
+                        <p><a href="https://github.com/Nikita-Lev/AutoML">AutoML</a></p>
+                    </div>
+                    <div class="carousel-item" onclick="openModal('projects/Pet2.gif')">
+                        <img src="projects/Pet2.gif" alt="Project 2">
+                        <p><a href="https://github.com/Nikita-Lev/Forecasting-PM-2.5-in-the-atmosphere-of-Krasnoyarsk/tree/main">Forecasting PM 2.5 in the atmosphere of Kransoyarsk</a></p>
+                    </div>
+                    <div class="carousel-item" onclick="openModal('projects/Pet3.gif')">
+                        <img src="projects/Pet3.gif" alt="Project 3">
+                        <p><a href="https://github.com/Nikita-Lev/Learning-System">Learning System</a></p>
+                    </div>
+                    <div class="carousel-item">
+			<a href="https://www.youtube.com/watch?v=LhT5EGFoClk">
+				<img src="projects/Pet4.jpg" alt="Project 4">
+			</a>
+			<p><a href="https://github.com/Nikita-Lev/Visual-analysis-using-interactive-maps-in-the-problem-of-taxi-demand-forecasting">Visual analysis in the problem of taxi demand forecasting</a></p>
+                    </div>
+                    <div class="carousel-item" onclick="openModal('projects/Pet5.gif')">
+                        <img src="projects/Pet5.gif" alt="Project 5" class="large-image">
+                        <p><a href="https://github.com/Nikita-Lev/Android-app-for-costs-management-and-transport-counters">Android app for costs management and transport counters
+</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+    </section>
+
     <section id="courses">
       <h2>Курсы и сертификаты</h2>
       <h3>2023 — Стипендиат Тинькофф</h3>
 	<p>Изучил базовые и магистерские курсы по Machine Learning и Deep Learning от
 Тинькофф Образования</p>
-	<img src="certificates/Cert0.jpg" alt="Certificate 0" class = "Tinkoff-cert" onclick="openModal('certificates/Cert0.jpg')">
+       <div class="Tinkoff-cert">
+	<img src="certificates/Cert0.jpg" alt="Certificate 0" onclick="openModal('certificates/Cert0.jpg')">
       
 	<h3>2021 — 2022</h3>
 
@@ -201,6 +238,8 @@
             <button class="carousel-button next" onclick="moveCarousel(1)">&#10095;</button>
         </div>
     </section>
+
+
   </div>
 
     <div id="imageModal" class="modal">
