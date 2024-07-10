@@ -37,7 +37,11 @@ function moveProjectCarousel(direction) {
 }
 
 
-function openModal(imageSrc) {
+function openModal(imageSrc, event = null){
+    if (event) {
+    event.preventDefault();
+}
+
     const modal = document.getElementById('imageModal');
     const modalImg = document.getElementById('modalImage');
     const captionText = document.getElementById('caption');
