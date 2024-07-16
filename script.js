@@ -4,7 +4,8 @@ let currentProjectIndex = 0;
 function moveCarousel(direction) {
     const carouselTrack = document.querySelector('.carousel-track');
     const totalImages = carouselTrack.querySelectorAll('.carousel-item').length;
-    const visibleImages = 3;
+    
+    const visibleImages = window.innerWidth <= 768 ? 1 : 3;
 
     currentIndex += direction;
 
@@ -14,7 +15,7 @@ function moveCarousel(direction) {
         currentIndex = 0;
     }
 
-    const offset = currentIndex * -33.33; // Move the track by one image width
+    const offset = currentIndex * -100 / visibleImages; // Move the track by one image width
     carouselTrack.style.transform = `translateX(${offset}%)`;
 }
 
@@ -22,7 +23,7 @@ function moveCarousel(direction) {
 function moveProjectCarousel(direction) {
     const ProjectTrack = document.querySelector('.carousel-project-track');
     const totalImages = ProjectTrack.querySelectorAll('.carousel-item').length;
-    const visibleImages = 3;
+    const visibleImages = window.innerWidth <= 768 ? 1 : 3;
 
     currentProjectIndex += direction;
 
@@ -32,7 +33,7 @@ function moveProjectCarousel(direction) {
         currentProjectIndex = 0;
     }
 
-    const offset = currentProjectIndex * -33.33; // Move the track by one image width
+    const offset = currentProjectIndex * -100 / visibleImages; // Move the track by one image width
     ProjectTrack.style.transform = `translateX(${offset}%)`;
 }
 
