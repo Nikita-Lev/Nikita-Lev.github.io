@@ -288,8 +288,8 @@ footer {
 
 @media (max-width: 768px) {
     .container {
-        width: 100%;
-        padding: 10px;
+        width: 95%;
+        padding: 5px;
     }
 
     .header-content {
@@ -344,5 +344,10 @@ footer {
 
     .skill {
         margin-bottom: 10px;
+    }
+
+    .Tinkoff-cert img {
+        width: 100%;
+        height: auto;
     }
 }
