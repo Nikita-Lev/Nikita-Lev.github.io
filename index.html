@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Никита Лев</title>
+  <title data-lang="name">Никита Лев</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,122 +15,127 @@
       <div class="header-content">
         <img src="photo.jpg" alt="Никита Лев" class="profile-photo">
         <div class="header-text">
-          <h1>Никита Лев</h1>
+          <h1 data-lang="name">Никита Лев</h1>
           <p>Junior Data Scientist</p>
         </div>
+	<label class="switch">
+      <input type="checkbox" id="language-toggle" onclick="toggleLanguage()">
+      <span class="slider"></span>
+    	</label>
       </div>
     </header>
 
     <section id="contact">
 <div class="info-container">
 <div class="left-column">
-      <h2>Контактная информация</h2>
+      <h2 data-lang="contact">Контактная информация</h2>
       <ul1>
         <li>Telegram: <a href="https://t.me/Nikita_Lev">Nikita_Lev</a></li>
         <li>Email: <a href="mailto:Nlkita.Lev@yandex.ru">Nlkita.Lev@yandex.ru</a></li>
         <li>GitHub: <a href="https://github.com/Nikita-Lev">github.com/Nikita-Lev</a></li>
         <li>Linkedin: <a href="https://www.linkedin.com/in/nikita-lev/">linkedin.com/in/nikita-lev/</a></li>
-        <li>г. Красноярск</li>
+        <li data-lang="city">г. Красноярск</li>
       </ul1>
 </div>
 <div class="right-column">
-      <h2>О себе</h2>
+      <h2 data-lang="about">О себе</h2>
       <ul1>
-        <li>🏆 Стипендиат Тинькофф 2023 по направлению "Аналитика"</li>
-        <li>🚀 Выступал на 4 научных конференциях в 2023-2024 гг. и занимал первые места</li>
-        <li>👨‍🎓 Бакалавр математики, получил ДПО по ML и анализу данных от Яндекса, СФУ</li>
-        <li>⌛ Есть 5-ти летний опыт участия в олимпиадах по программированию</li>
-	<li>🏓 Увлекаюсь настольным теннисом</li>
+        <li data-lang="achievement1">🏆 Стипендиат Тинькофф 2023 по направлению "Аналитика"</li>
+        <li data-lang="achievement2">🚀 Выступал на 4 научных конференциях в 2023-2024 гг. и занимал первые места</li>
+        <li data-lang="achievement3">👨‍🎓 Бакалавр математики, получил ДПО по ML и анализу данных от Яндекса, СФУ</li>
+        <li data-lang="achievement4">⌛ Есть 5-ти летний опыт участия в олимпиадах по программированию</li>
+	<li data-lang="hobby">🏓 Увлекаюсь настольным теннисом</li>
       </ul1>
 </div>
 </div>
     </section>
 
     <section id="experience">
-      <h2>Опыт работы</h2>
+      <h2 data-lang="experience">Опыт работы</h2>
       <div class="job-container">
         <div class="left-column">
-          <p>
+          <p data-lang="job1-period">
             07.2023 — 08.2023
             <br/> 2 месяца
           </p>
         </div>
         <div class="right-column">
-          <h3>ООО «Фабрика решений»</h3>
-          <p> Красноярск, <a href="http://solutionfactory.ru">solutionfactory.ru</a>, разработка ПО </p>
+
+          <h3 data-lang="job1-company">ООО «Фабрика решений»</h3>
+          <p data-lang="job1-location"> Красноярск, <a href="http://solutionfactory.ru">solutionfactory.ru</a>, разработка ПО </p>
           <h3>Junior Data Scientist</h3>
           <ul>
-            <li>Разрабатывал модули машинного обучения для генерации новых знаний в программе лояльности maxbonus.ru</li>
-            <li>Использовал классические, бустинговые, нейросетевые модели ML на данных о клиентах и чеках, получаемых из ClickHouse</li>
+            <li data-lang="job1-responsibility1">Разрабатывал модули машинного обучения для генерации новых знаний в программе лояльности maxbonus.ru</li>
+            <li data-lang="job1-responsibility2">Использовал классические, бустинговые, нейросетевые модели ML на данных о клиентах и чеках, получаемых из ClickHouse</li>
           </ul>
-          <h3>Результаты и достижения</h3>
+          <h3 data-lang="job1-achievements">Результаты и достижения</h3>
           <ul>
-            <p>Разработал 8 ML модулей, управляемых через Rest API:</p>
-            <li>Вероятность оттока клиентов</li>
-            <li>Кластеризация клиентов</li>
-            <li>Поиск похожих клиентов (Look alike)</li>
-            <li>Прогнозирование корзины товаров</li>
-            <li>Поиск наиболее интересных товаров</li>
-            <li>Прогнозирование даты покупки</li>
-            <li>2 статистических метода (коэффициент вариации, индекс переменного состава)</li>
+            <p data-lang="job1-result-intro"> Разработал 6 ML модулей, управляемых через Rest API: </p>
+            <li data-lang="job1-result1"> Вероятность оттока клиентов </li>
+            <li data-lang="job1-result2"> Кластеризация клиентов </li>
+            <li data-lang="job1-result3"> Поиск похожих клиентов (Look alike) </li>
+            <li data-lang="job1-result4"> Прогнозирование корзины товаров </li>
+            <li data-lang="job1-result5"> Поиск наиболее интересных товаров </li>
+            <li data-lang="job1-result6"> Прогнозирование даты покупки </li>
           </ul>
         </div>
       </div>
 
       <div class="job-container">
         <div class="left-column">
-          <p>
+          <p data-lang="job2-period">
             07.2021 — 08.2021
             <br/> 2 месяца
           </p>
         </div>
         <div class="right-column">
-          <h3>ООО «МФЦ Полюс»</h3>
-          <p> Красноярск, <a href="https://polyus.com/ru/">polyus.com</a>, разработка ПО </p>
-          <h3>Специалист группы развития веб-систем</h3>
+          <h3 data-lang="job2-company">ООО «МФЦ Полюс»</h3>
+          <p data-lang="job2-location"> Красноярск, <a href="https://polyus.com/ru/">polyus.com</a>, разработка ПО </p>
+          <h3 data-lang="job2-position">Специалист группы развития веб-систем</h3>
           <ul>
-            <li>Внедрял Selenium WebDriver на языке C# для автоматизации тестирования</li>
-            <li>Описывал BDD сценарии тестирования, используя Cucumber</li>
+            <li data-lang="job2-responsibility1">Внедрял Selenium WebDriver на языке C# для автоматизации тестирования</li>
+            <li data-lang="job2-responsibility2">Описывал BDD сценарии тестирования, используя Cucumber</li>
           </ul>
-          <h3>Результаты и достижения</h3>
-          <p>Автоматизировал тестирование системы электронного документооборота, что позволило избежать ручного тестирования.</p>
+          <h3 data-lang="job1-achievements">Результаты и достижения</h3>
+          <p data-lang="job2-result-intro">Автоматизировал тестирование системы электронного документооборота, что позволило избежать ручного тестирования.</p>
         </div>
       </div>
 
     </section>
 
     <section id="education">
-      <h2>Образование</h2>
+      <h2 data-lang="education">Образование</h2>
       <div class="education">
-        <h3>2020-2024: бакалавр, <a href = "#" onclick="openModal('diplomas/Bachelor.jpg', event)"> диплом с отличием</a> </h3>
-        <p>Институт математики и фундаментальной информатики Сибирского Федерального Университета, г. Красноярск.
+        <h3 data-lang="degree">2020-2024: бакалавр, <a href = "#" onclick="openModal('diplomas/Bachelor.jpg', event)"> диплом с отличием</a> </h3>
+        <p data-lang="university">Институт математики и фундаментальной информатики Сибирского Федерального Университета, г. Красноярск.
           <br/> Математика и компьютерные науки </p>
-	<h4> Выпускная квалификационная работа: </h4> <p> «Прогнозирование величины концентрации загрязняющих веществ в атмосфере г. Красноярска при помощи моделей временных рядов и ансамблевых моделей машинного обучения». </p>
+	<h4 data-lang="diploma"> Выпускная квалификационная работа: </h4> <p data-lang="diploma-theme"> «Прогнозирование величины концентрации загрязняющих веществ в атмосфере г. Красноярска при помощи моделей временных рядов и ансамблевых моделей машинного обучения». </p>
       </div>
       <div class="education">
-        <h3>Дополнительное профессиональное образование</h3>
+        <h3 data-lang="add-education-intro">Дополнительное профессиональное образование</h3>
 	<h4>2023</h4>
-        <p> Сибирский федеральный университет, курс «Программист», <a href = "#" onclick="openModal('diplomas/Programmer.jpg', event)"> диплом </a> </p>
+        <p data-lang="add-education1"> Сибирский федеральный университет, курс «Программист», <a href = "#" onclick="openModal('diplomas/Programmer.jpg', event)"> диплом </a> </p>
         <h4>2022</h4>
-        <p> ООО «Яндекс», СФУ и СПАО «Ингосстрах», курс «Машинное обучение и анализ данных».</br>
+        <p data-lang="add-education2"> ООО «Яндекс», СФУ и СПАО «Ингосстрах», курс «Машинное обучение и анализ данных».</br>
           Квалификационная работа: «Визуальный анализ с помощью интерактивных карт в задаче прогноза спроса на такси» (прогнозирование временных рядов).</p>
 
       </div>
     </section>
 
     <section id="skills">
-      <h2>Навыки</h2>
+      <h2 data-lang="skills">Навыки</h2>
       <div class="skills">
         <div class="skill">Python</div>
         <div class="skill">SQL</div>
         <div class="skill">Machine Learning</div>
         <div class="skill">Data Science</div>
+        <div class="skill">Computer Vision</div>
+        <div class="skill">NLP</div>
         <div class="skill">C++</div>
 </div> 
 <div class="skills">
-        <div class="skill">Временные ряды</div>
+        <div class="skill">Time Series</div>
         <div class="skill">Computer Vision</div>
-        <div class="skill">NLP</div>
         <div class="skill">Pandas</div>
         <div class="skill">NumPy</div>
         <div class="skill">Matplotlib</div>
@@ -149,22 +154,22 @@
     </section>
 
     <section id="science">
-      <h2>Научная деятельность</h2>
+      <h2 data-lang="science">Научная деятельность</h2>
       <h3>2024</h3>
       <ul>
-        <li>Участие в XX Международной научной конференции студентов, аспирантов и молодых ученых «Проспект Свободный – 2024» (1 место)</li>
-        <li>Участие в открытой конференции молодых учёных по математическому моделированию, информационным технологиям и фундаментальной математике ИВМ СО РАН (1 место)</li>
+        <li data-lang="conference1">Участие в XX Международной научной конференции студентов, аспирантов и молодых ученых «Проспект Свободный – 2024» (1 место)</li>
+        <li data-lang="conference2">Участие в открытой конференции молодых учёных по математическому моделированию, информационным технологиям и фундаментальной математике ИВМ СО РАН (1 место)</li>
       </ul>
       <h3>2023</h3>
       <ul>
-        <li>Публикация <a href="https://doi.org/10.25743/SSTS.2023.68.60.050">статьи</a> «Методы прогнозирования временных рядов в задаче анализа уровня концентрации загрязняющих веществ в атмосфере г. Красноярска». Безопасность и мониторинг природных и техногенных систем</li>
-        <li>Участие в XX Международной научной конференции студентов, аспирантов и молодых ученых «Проспект Свободный – 2023», англоязычная секция (лауреат)
+        <li data-lang="publication1">Публикация <a href="https://doi.org/10.25743/SSTS.2023.68.60.050">статьи</a> «Методы прогнозирования временных рядов в задаче анализа уровня концентрации загрязняющих веществ в атмосфере г. Красноярска». Безопасность и мониторинг природных и техногенных систем</li>
+        <li data-lang="conference3">Участие в XX Международной научной конференции студентов, аспирантов и молодых ученых «Проспект Свободный – 2023», англоязычная секция (лауреат)
         </li>
       </ul>
     </section>
 
 <section id="projects">
-      <h2>Проекты</h2>
+      <h2 data-lang="projects">Проекты</h2>
 	<div class="carousel-container">
             <button class="carousel-button prev" onclick="moveProjectCarousel(-1)">&#10094;</button>
             <div class="carousel">
@@ -185,18 +190,14 @@
                         <img src="projects/Pet4.gif" alt="Project 4">
                         <p><a href="https://github.com/Nikita-Lev/Learning-System">Learning System</a></p>
                     </div>
-                    <div class="carousel-item" onclick="openModal('projects/Pet5.JPG')">
-                        <img src="projects/Pet5.JPG" alt="Project 5">
-                        <p><a href="https://github.com/Nikita-Lev/News-sentiment-analysis">News sentiment analysis</a></p>
-                    </div>
                     <div class="carousel-item">
 			<a href="https://www.youtube.com/watch?v=LhT5EGFoClk">
-				<img src="projects/Pet6.jpg" alt="Project 6">
+				<img src="projects/Pet5.jpg" alt="Project 5">
 			</a>
 			<p><a href="https://github.com/Nikita-Lev/Visual-analysis-using-interactive-maps-in-the-problem-of-taxi-demand-forecasting">Visual analysis in the problem of taxi demand forecasting</a></p>
                     </div>
-                    <div class="carousel-item" onclick="openModal('projects/Pet7.gif')">
-                        <img src="projects/Pet7.gif" alt="Project 7" class="large-image">
+                    <div class="carousel-item" onclick="openModal('projects/Pet6.gif')">
+                        <img src="projects/Pet6.gif" alt="Project 6" class="large-image">
                         <p><a href="https://github.com/Nikita-Lev/Android-app-for-costs-management-and-transport-counters">Android app for costs management and transport counters
 </a></p>
                     </div>
@@ -207,9 +208,9 @@
     </section>
 
     <section id="courses">
-      <h2>Курсы и сертификаты</h2>
-      <h3>2023 — Стипендиат Тинькофф</h3>
-	<p>Изучил базовые и магистерские курсы по Machine Learning и Deep Learning от
+      <h2 data-lang="courses">Курсы и сертификаты</h2>
+      <h3 data-lang="cert0">2023 — Стипендиат Тинькофф</h3>
+	<p data-lang="cert0-description">Изучил базовые и магистерские курсы по Machine Learning и Deep Learning от
 Тинькофф Образования</p>
        <div class="Tinkoff-cert">
 	<img src="certificates/Cert0.jpg" alt="Certificate 0" onclick="openModal('certificates/Cert0.jpg')">
@@ -222,7 +223,7 @@
                 <div class="carousel-track">
                     <div class="carousel-item" onclick="openModal('certificates/Cert1.jpg')">
                         <img src="certificates/Cert1.jpg" alt="Certificate 1">
-                        <p><a href="https://www.coursera.org/account/accomplishments/certificate/6FMYJVWFVDEH">Математика и Python для анализа данных</a></p>
+                        <p data-lang="cert1"><a href="https://www.coursera.org/account/accomplishments/certificate/6FMYJVWFVDEH">Математика и Python для анализа данных</a></p>
                     </div>
                     <div class="carousel-item" onclick="openModal('certificates/Cert2.jpg')">
                         <img src="certificates/Cert2.jpg" alt="Certificate 2">
@@ -230,23 +231,23 @@
                     </div>
                     <div class="carousel-item" onclick="openModal('certificates/Cert3.jpg')">
                         <img src="certificates/Cert3.jpg" alt="Certificate 3">
-                        <p><a href="https://www.coursera.org/account/accomplishments/certificate/3YAMVR5AVGLR">Обучение на размеченных данных</a></p>
+                        <p data-lang="cert3"><a href="https://www.coursera.org/account/accomplishments/certificate/3YAMVR5AVGLR">Обучение на размеченных данных</a></p>
                     </div>
                     <div class="carousel-item" onclick="openModal('certificates/Cert4.jpg')">
                         <img src="certificates/Cert4.jpg" alt="Certificate 4">
-                        <p>Ингосстрах</p>
+                        <p data-lang="cert4">Ингосстрах</p>
                     </div>
                     <div class="carousel-item" onclick="openModal('certificates/Cert5.jpg')">
                         <img src="certificates/Cert5.jpg" alt="Certificate 5">
-                        <p><a href="https://www.coursera.org/account/accomplishments/certificate/HLU7QYJK2VS5">Поиск структуры в данных</a></p>
+                        <p data-lang="cert5"><a href="https://www.coursera.org/account/accomplishments/certificate/HLU7QYJK2VS5">Поиск структуры в данных</a></p>
                     </div>
                     <div class="carousel-item" onclick="openModal('certificates/Cert6.jpg')">
                         <img src="certificates/Cert6.jpg" alt="Certificate 6">
-                        <p><a href="https://www.coursera.org/account/accomplishments/certificate/4BTD9RHF43MQ">Построение выводов по данным</a></p>
+                        <p data-lang="cert6"><a href="https://www.coursera.org/account/accomplishments/certificate/4BTD9RHF43MQ">Построение выводов по данным</a></p>
                     </div>
                     <div class="carousel-item" onclick="openModal('certificates/Cert7.jpg')">
                         <img src="certificates/Cert7.jpg" alt="Certificate 7">
-                        <p><a href="https://www.coursera.org/account/accomplishments/certificate/A5H3NR3MWPTJ">Прикладные задачи анализа данных</a></p>
+                        <p data-lang="cert7"><a href="https://www.coursera.org/account/accomplishments/certificate/A5H3NR3MWPTJ">Прикладные задачи анализа данных</a></p>
                     </div>
                 </div>
             </div>
@@ -265,7 +266,7 @@
 
 
   <footer>
-    <p>&copy; 2024 Никита Лев. Все права защищены.</p>
+    <p data-lang="rights">&copy; 2024 Никита Лев. Все права защищены.</p>
   </footer>
 
 	<script src="script.js"></script>
