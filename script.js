@@ -145,12 +145,17 @@ let translations = {
         'job2-result-intro': 'Automated testing of the electronic document management system, which avoided manual testing',
 
 	'education': 'Education',
-	'degree': '2020-2024: <a href="#" onclick="openModal(\'diplomas/Bachelor.jpg\', event)"> bachelour degree </a>',
-	'university': 'School of mathematics and computer science of Siberian Federal University <br/> Mathematics and computer sciences',
-        'diploma': 'Diploma:',
-	'diploma-theme': 'Forecasting the concentration of PM 2.5 in the atmosphere of Krasnoyarsk using time series models and ensemble machine learning models.',
-        'add-education-intro': 'Additional education',
-        'add-education1': 'Siberian Federal University, course «Programmer», <a href = "#" onclick="openModal(\'diplomas/Programmer.jpg\', event)"> diploma </a>',
+
+	'masters-degree': "Master's degree: 2024-2026",
+	'university-masters': 'School of space and information technology of Siberian Federal University <br/> Applied mathematics and computer science',
+
+	'bachelours-degree': "Bachelour's degree: 2020-2024 <a href=\"#\" style=\"text-decoration: none\" onclick=\"openModal('diplomas/Bachelor.jpg', event)\">📜</a> ",
+	'university-bachelours': 'School of mathematics and computer science of Siberian Federal University <br/> Mathematics and computer sciences',
+        'diploma2': 'Diploma:',
+	'diploma2-theme': 'Forecasting the concentration of PM 2.5 in the atmosphere of Krasnoyarsk using time series models and ensemble machine learning models.',
+        
+'add-education-intro': 'Additional education',
+        'add-education1': 'Siberian Federal University, course «Programmer»<a href = "#" style="text-decoration: none" onclick="openModal(\'diplomas/Programmer.jpg\', event)"> 📜</a>',
         'add-education2': 'Yandex & SFU, course «Machine Learning and data analysis».</br> Qualification work — Visual analysis using interactive maps in the problem of taxi demand forecasting (time series forecasting).',
 
 	'skills' : 'Skills',
