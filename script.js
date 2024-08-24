@@ -147,7 +147,7 @@ let translations = {
 	'education': 'Education',
 
 	'masters-degree': "Master's degree: 2024-2026",
-	'university-masters': 'School of Space and Information Technologies of Siberian Federal University <br/> Applied mathematics and computer science',
+	'university-masters': 'School of Space and Information Technologies of Siberian Federal University <br/> Applied mathematics and computer science. Data analysis in science and business',
 
 	'bachelours-degree': "Bachelor's degree: 2020-2024 <a href=\"#\" style=\"text-decoration: none\" onclick=\"openModal('diplomas/Bachelor.jpg', event)\">📜</a> ",
 	'university-bachelours': 'School of Mathematics and Computer Science of Siberian Federal University <br/> Mathematics and computer sciences',
