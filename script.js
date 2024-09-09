@@ -156,7 +156,7 @@ let translations = {
         
 'add-education-intro': 'Additional education',
         'add-education1': 'Siberian Federal University, course «Programmer»<a href = "#" style="text-decoration: none" onclick="openModal(\'diplomas/Programmer.jpg\', event)"> 📜</a>',
-        'add-education2': "Yandex & SFU, course «Machine Learning and Data Analysis». <a href = '#' style='text-decoration: none' onclick=\"openModal('diplomas/ML.jpg', event)\"> 📜 </a> </br> Qualification work — Visual analysis using interactive maps in the problem of taxi demand forecasting (time series forecasting).",
+        'add-education2': "Yandex & SFU, course «Machine Learning and Data Analysis» <a href = '#' style='text-decoration: none' onclick=\"openModal('diplomas/ML.jpg', event)\"> 📜 </a> </br> Qualification work — Visual analysis using interactive maps in the problem of taxi demand forecasting (time series forecasting).",
 
 	'skills' : 'Skills',
 	'science' : 'Science',
