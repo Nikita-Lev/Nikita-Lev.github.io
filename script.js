@@ -115,13 +115,22 @@ let translations = {
         'about': 'About Me',
         'city': 'Krasnoyarsk',
         
+    'achievement0': '👨🏻‍💻 ML NLP Engineer at Tinkoff (Tbank)',
 	'achievement1': '🏆 Tinkoff Scholarship 2023 in "Analytics"',
         'achievement2': '🚀 Experience of performing at 4 scientific conferences in 2023-2024 with obtaining first degree diplomas',
-        'achievement3': '👨‍🎓 Bachelor in Mathematics, also received additional education in Machine Learning & Data Analysis at Yandex',
-        'achievement4': '⌛ 5-year experience of participating in programming contests (C++)',
+        'achievement3': '👨‍🎓 MA student in Mathematics and ML, BA in Mathematics',
         'hobby': '🏓 Passionate about table tennis',
         'experience': 'Work Experience',
-        
+    
+    'job0-period': '09.2024 — present<br/>4 months',
+        'job0-company': 'Tinkoff (Tbank)',
+        'job0-location': 'Moscow, <a href="https://www.tbank.ru/">Tbank.ru</a>',
+        'job0-responsibility1' : 'I develop features to improve the quality of product ranking in the <a href="https://dolyame.ru/">Dolyame</a>',
+        'job0-achievements': 'Results and Achievements',
+        'job0-result1': 'Implemented over 7 features that take into account the similarity of the request and various document parameters, as well as their popularity, which led to an increase in NDCG by 0.05%',
+        'job0-result2': 'Developed a query spell checker with precision = 0.94',
+        'job0-result3': "Improved product delivery by replacing queries with low NDCG and taking into account the user's gender",
+
 	'job1-period': '07.2023 — 08.2023<br/>2 months',
         'job1-company': 'LLC "Solution Factory"',
         'job1-location': 'Krasnoyarsk, <a href="http://solutionfactory.ru">solutionfactory.ru</a>, software development',
