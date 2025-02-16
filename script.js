@@ -63,6 +63,28 @@ function handleKeyPress(event) {
     }
 }
 
+function updateExperienceTime() {
+    const startDate = new Date(2024, 8); // September 2024 (Months in JS begin from 0)
+    const currentDate = new Date();
+    
+    let monthsDiff = (currentDate.getFullYear() - startDate.getFullYear()) * 12;
+    monthsDiff += currentDate.getMonth() - startDate.getMonth();
+    
+    if (monthsDiff < 0) {
+        monthsDiff = 0;
+    }
+    
+    const ruText = `09.2024 — наст. время<br/>${monthsDiff} мес.`;
+    const enText = `09.2024 — present<br/>${monthsDiff} months`;
+    
+    const experienceElement = document.querySelector('[data-lang="job0-period"]');
+    const currentLang = document.getElementById('language-toggle').checked ? 'en' : 'ru';
+    
+    experienceElement.innerHTML = currentLang === 'en' ? enText : ruText;
+}
+
+document.addEventListener('DOMContentLoaded', updateExperienceTime);
+document.getElementById('language-toggle').addEventListener('change', updateExperienceTime);
 
 function changeLanguage(language) {
     const elementsToTranslate = document.querySelectorAll('[data-lang]');
